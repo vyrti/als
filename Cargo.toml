@@ -1,0 +1,20 @@
+[workspace]
+members = [
+    "app/lib",
+    "app/cli",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+authors = ["ALS Compression Team"]
+license = "Apache-2.0"
+repository = "https://github.com/example/als-compression"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = true
+panic = "abort"

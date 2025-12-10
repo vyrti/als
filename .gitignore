@@ -1,0 +1,72 @@
+# Rust build artifacts
+target/
+Cargo.lock
+**/*.rs.bk
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# WASM
+pkg/
+wasm-pack.log
+
+# Test coverage
+*.profraw
+*.profdata
+/coverage/
+
+# Datasets
+datasets
+
+# Local development
+.env
+.env.local
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Node.js (for Node.js bindings)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Go (for Go bindings)
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# C FFI artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+*.exp
+*.def
